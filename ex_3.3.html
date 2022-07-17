@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Calculo do Peso Ideal</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo do Peso Ideal</h1>
+        
+        <p>
+            Nome:
+            <input type="text" id="in_nome" class="form-control">
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="sexo" id="rb_masculino"> Masculino
+            <input type="radio" name="sexo" id="rb_feminino"> Feminino
+        </p>
+        <p>
+            Altura: 
+            <input type="text" id="in_altura" class="form-control">
+        </p>
+        <p>
+            <input type="button" value="Calcular Peso" id="btn_enviar" class="btn btn-primary">
+            <input type="reset" value="Limpar Campos" id="btn_limpar" class="btn btn-danger">
+        </p>
+    </div>
+    <div class="container">    
+        <p id="out_nome"></p>
+        <p id="out_altura"></p>
+        <p id="out_peso"></p>
+        <p id="out_resposta"></p>
+    </div>
+    
+    <script src="js/ex_3.3.js"></script>
+</body>
+</html>
