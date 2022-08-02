@@ -26,7 +26,7 @@ function modelo(){
         return;
     }
 
-    //Math.pow - eleva ao quadraro
+    //Math.pow - eleva ao quadrado
     
 }
 
