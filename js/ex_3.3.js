@@ -26,6 +26,7 @@ function calcular_peso_ideal(){
     if (altura == 0 || isNaN(altura)){
         alert("Informe a altura corretamente.")
         in_altura.focus();
+        //Vamos testar pra ver.
         return;
     }
 
