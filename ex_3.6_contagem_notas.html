@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Contagem De Notas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contagem de notas para Saque</h1>
+        <h2>Informar Valores multiplos de R$10</h2>
+        
+        <p>
+            Valor do saque:
+            <input type="text" id="in_valor_saque" class="form-control">
+        </p>
+        <p>
+            <input type="button" value="Calcular Saque" id="btn_enviar" class="btn btn-primary">
+        </p>
+    </div>
+    <div class="container">    
+        <p id="out_valor"></p>
+        <p id="out_resposta"></p>
+        <p id="out_nota_cem"></p>
+        <p id="out_nota_cinquenta"></p>
+        <p id="out_nota_vinte"></p>
+        <p id="out_nota_dez"></p>
+    </div>
+    
+    <script src="js/ex_3.6_contagem_notas.js"></script>
+</body>
+</html>
