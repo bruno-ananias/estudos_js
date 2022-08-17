@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Laços de Repetição</title>
+</head>
+<body>
+    <div class="container">
+        <script>
+            alert("Digite 0 para sair");
+        
+            do {
+                var num = Number(prompt("Numero: "));
+        
+                if(num == 0 || isNaN(num)){
+                    var sair = confirm("Confirma Saída? ");
+                    if(sair){
+                        break;
+                    }else{
+                        continue;
+                    }
+                }
+        
+                if(num % 2 == 0){
+                    alert("O dobro do numero é: " + num * 2)
+                }else{
+                    alert("O triplo do número é: " + num * 3)
+                }
+            } while (true);
+            alert("Fechando")
+        </script> 
+    </div>
+    <div class="container">    
+        <p id="out_modelo"></p>
+        <p id="out_valor"></p>
+        <p id="out_entrada"></p>
+        <p id="out_parcelas"></p>
+    </div>
+    
+    <!-- <script src="js/ex_4.4_laco_repeticao.js"></script>-->
+</body>
+</html>

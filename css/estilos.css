@@ -16,4 +16,7 @@ img.alta{
 
 pre{
     font-size: 1.2em;
+    border: 1mm;
+    background-color: aqua;
+    border-style: double;
 }
